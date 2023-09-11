@@ -7,7 +7,7 @@ body {
     background-color: #ABAC7F;
     border: 5px solid #373D20;
     border-radius: 15px;
-    margin-bottom: 150px;
+    margin-bottom: 10px;
 }
 
 
@@ -28,6 +28,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .flex-item {
@@ -39,14 +40,12 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2rem;
     
-
-
     /* box styling */
     background-color: #ABAC7F;
     border-radius: 20px;
     box-sizing: border-box;
     width: 250px;
-    height: 450px;
+    height: 350px;
     flex: 1;
     overflow: hidden;
     min-width: 0px;
@@ -55,7 +54,6 @@ body {
 
 a:hover, a:visited, a {
     text-decoration: none;
-    text-align: center;
 }
 
 a:visited, a {
@@ -65,7 +63,7 @@ a:visited, a {
 a:hover {
     font-size: 1.2rem;
     font-weight: 900;
-    box-sizing: border-box;
 }
+
 
 
