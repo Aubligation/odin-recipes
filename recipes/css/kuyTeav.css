@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu&family=REM:wght@600&display=swap');
+
+body {
+    font-family: 'REM', sans-serif;
+    height: 100vh;
+    background-image: url('https://www.196flavors.com/wp-content/uploads/2018/07/kuy-teav-1-FP.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.93;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    color:  #281E16;
+}
+
+.odin-container, .title-container {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.odin-container {
+    background-color: #6f1a07;
+    padding: 10px;
+}
+
+.title-container {
+    background-color: #A8763E ;
+    font-family: 'Phudu', sans-serif;
+    text-align: center;
+}
+
+.emphasis {
+    font-weight: 900;
+    color: white;
+}
+
+.food {
+    background-color: #A8763E;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    flex-direction: column;
+}
+
+#title {
+    font-size: 45px;
+    flex: 1;
+}
+
+
+.time-container {
+    background-color: #FDFEFD;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 20px;
+    border: solid 2px #6f1a07;
+    width: 450px;
+    border-radius: 2px;
+    margin: 15px;
+}
+
+
+a, a:visited, a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+img {
+    max-width: 200px;
+    height: 200px;
+    align-self: center;
+    border-radius: 15px;
+    border: solid 2px #6f1a07;
+}
+
+.header {
+    font-family: 'Phudu', sans-serif;
+    border-bottom: dashed 2px #6f1a07;
+}
+
+.nutrition-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+    align-items: center;
+}
+
+table {
+    border: groove 2px #6f1a07;
+    border-collapse: collapse;
+    width: 250px;
+    height: 200px;
+}
+
+tr.pattern {
+    background-color: #FDFEFD;
+}
+
