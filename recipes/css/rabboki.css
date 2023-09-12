@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu&family=REM:wght@600&display=swap');
+
+body {
+    font-family: 'REM', sans-serif;
+    height: 100vh;
+    background-image: url('https://mikhaeats.com/wp-content/uploads/2021/10/rabokki-tteokbokki-with-ramen-featured-image-1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.93;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    color: #71A1D1;
+}
+
+.odin-container, .title-container {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.odin-container {
+    background-color: #F2F2F2;
+    padding: 10px;
+}
+
+.title-container {
+    background-color: #F4FFFB ;
+    font-family: 'Phudu', sans-serif;
+    text-align: center;
+}
+
+.emphasis {
+    font-weight: 900;
+    color: gray;
+}
+
+.food {
+    background-color: #F4FFFB;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    flex-direction: column;
+}
+
+#title {
+    font-size: 45px;
+    flex: 1;
+}
+
+
+.time-container {
+    background-color: #81D0E8;
+    color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 20px;
+    border: solid 2px #f2f2f2;
+    width: 450px;
+    border-radius: 2px;
+    margin: 15px;
+}
+
+
+a, a:visited, a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+img {
+    max-width: 200px;
+    height: 200px;
+    align-self: center;
+    border-radius: 15px;
+    border: solid 2px #f2f2f2;
+}
+
+.header {
+    font-family: 'Phudu', sans-serif;
+    border-bottom: dashed 2px #71A1D1;
+}
+
+.nutrition-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+    align-items: center;
+}
+
+table {
+    border: groove 2px #71A1D1;
+    border-collapse: collapse;
+    width: 250px;
+    height: 200px;
+}
+
+tr.pattern {
+    background-color: #F2F2F2;
+}
+
