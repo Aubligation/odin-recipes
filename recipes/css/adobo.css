@@ -1,3 +1,115 @@
-.title {
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu&family=REM:wght@600&display=swap');
+
+body {
+    font-family: 'REM', sans-serif;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.87;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    color: #854D27;
+}
+
+.odin-container, .title-container {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.odin-container {
+    background-color: #E7E393;
+    padding: 10px;
+}
+
+.title-container {
+    background-color: #F4C95D ;
+    font-family: 'Phudu', sans-serif;
     text-align: center;
 }
+
+.emphasis {
+    font-weight: 900;
+    color: gray;
+}
+
+.food {
+    background-color: #F4C95D;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    flex-direction: column;
+}
+
+#title {
+    font-size: 45px;
+    flex: 1;
+}
+
+
+.time-container {
+    background-color: #F4C95D;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 20px;
+    border: solid 2px #854D27;
+    width: 450px;
+    border-radius: 2px;
+    margin: 15px;
+}
+
+
+a, a:visited, a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+img {
+    max-width: 300px;
+    height: 300px;
+    align-self: center;
+    border-radius: 15px;
+    border: solid 2px #854D27;
+}
+
+.header {
+    font-family: 'Phudu', sans-serif;
+    border-bottom: dashed 2px #854D27;
+}
+
+.nutrition-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+    align-items: center;
+}
+
+table {
+    border: groove 2px #854D27;
+    border-collapse: collapse;
+    width: 250px;
+    height: 200px;
+}
+
+tr.pattern {
+    background-color: #E7E393;
+}
+
