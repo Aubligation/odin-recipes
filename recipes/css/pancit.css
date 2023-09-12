@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    color:  #281E16;
+    color:  #91972A;
 }
 
 .odin-container, .title-container {
@@ -24,23 +24,23 @@ body {
 }
 
 .odin-container {
-    background-color: #6f1a07;
+    background-color: #E6D3A3;
     padding: 10px;
 }
 
 .title-container {
-    background-color: #A8763E ;
+    background-color: #F2F4F3 ;
     font-family: 'Phudu', sans-serif;
     text-align: center;
 }
 
 .emphasis {
     font-weight: 900;
-    color: white;
+    color: gray;
 }
 
 .food {
-    background-color: #A8763E;
+    background-color: #F2F4F3;
     display: flex;
     flex: 1;
     flex-wrap: wrap;
@@ -58,14 +58,14 @@ body {
 
 
 .time-container {
-    background-color: #FDFEFD;
+    background-color: #B6C454;
     display: flex;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     align-self: center;
     padding: 20px;
-    border: solid 2px #6f1a07;
+    border: solid 2px #D8D174;
     width: 450px;
     border-radius: 2px;
     margin: 15px;
@@ -78,7 +78,7 @@ a, a:visited, a:hover {
 }
 
 a:hover {
-    color: white;
+    color: #91972A;
 }
 
 img {
@@ -86,12 +86,12 @@ img {
     height: 200px;
     align-self: center;
     border-radius: 15px;
-    border: solid 2px #6f1a07;
+    border: solid 2px #D8D174;
 }
 
 .header {
     font-family: 'Phudu', sans-serif;
-    border-bottom: dashed 2px #6f1a07;
+    border-bottom: dashed 2px #D8D174;
 }
 
 .nutrition-container {
@@ -103,7 +103,7 @@ img {
 }
 
 table {
-    border: groove 2px #6f1a07;
+    border: groove 2px #D8D174;
     border-collapse: collapse;
     width: 250px;
     height: 200px;
