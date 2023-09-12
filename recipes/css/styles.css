@@ -1,5 +1,9 @@
 body {
     background-color: #717744;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #header-container {
